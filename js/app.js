@@ -2,11 +2,16 @@
 //  JSON Data Parsing Nested in JavaScript
 let book = `{
   "list": {
-      "name": "Harry Potter", "age": 25, "ocupatio": "developer",
-      "name": "Harry Potter", "age": 25, "ocupatio": "developer",
-      "name": "Harry Potter", "age": 25, "ocupatio": "developer",
-      "characters": ["Harry Potter", "Hermione Granger", "Ron Weasley"],
-      "genre": "Fantasy Fiction",
+      "name": "Harry Potter", "age": 25, "ocupatio": "design", "gender": "male",
+      "name": "Ana Maria", "age": 45, "ocupatio": "developer", "gender": "female",
+      "name": "Phil Pioter", "age": 19, "ocupatio": "tester", "gender": "male",
+      "name": "Harry Potter", "age": 18, "ocupatio": "tester", "gender": "male",
+      "name": "April Jackson", "age": 37, "ocupatio": "tester", "gender": "female",
+      "name": "Harry Potter", "age": 29, "ocupatio": "tester", "gender": "male",
+      "name": "Brad Poter", "age": 17, "ocupatio": "tester", "gender": "male",
+      "name": "Betty Paula", "age": 19, "ocupatio": "account", "gender": "female",
+    
+      
       "name": "Fantasy Fiction",
       "price": {"paperback": "£40.40", "hardcover": "£30.32", "kindle": "£5.11"}
   }
