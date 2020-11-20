@@ -1,2 +1,2 @@
 # json-javascript
- get value from json object in javascript
+ parsing nested JSON Data in JavaScript
