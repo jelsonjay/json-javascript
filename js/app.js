@@ -1,21 +1,24 @@
 
 //  JSON Data Parsing Nested in JavaScript
-let json = `{
-  "book": {
-      "name": "Harry Potter and the Goblet of Fire",
-      "author": "J. K. Rowling",
-      "year": 2000,
+let book = `{
+  "list": {
+      "name": "Harry Potter", "age": 25, "ocupatio": "developer",
+      "name": "Harry Potter", "age": 25, "ocupatio": "developer",
+      "name": "Harry Potter", "age": 25, "ocupatio": "developer",
       "characters": ["Harry Potter", "Hermione Granger", "Ron Weasley"],
       "genre": "Fantasy Fiction",
-      "price": 
-
-      {"paperback": "$10.40", "hardcover": "$20.32", "kindle": "$4.11"}
+      "name": "Fantasy Fiction",
+      "price": {"paperback": "£40.40", "hardcover": "£30.32", "kindle": "£5.11"}
   }
-}`;
 
-let compList = JSON.parse(json)
+  
+}`
+
+;
+
+let bookList = JSON.parse(book)
 console.log('------------JSON Data Parsing Nested in JavaScript--------------------')
-console.log(compList)
+console.log(bookList)
 
 
 
