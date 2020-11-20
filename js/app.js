@@ -1,6 +1,6 @@
 
 //  JSON Data Parsing Nested in JavaScript
-let book = `{
+let employes = `{
   "list": {
       "name": "Harry Potter", "age": 25, "ocupatio": "design", "gender": "male",
       "name": "Ana Maria", "age": 45, "ocupatio": "developer", "gender": "female",
@@ -9,11 +9,8 @@ let book = `{
       "name": "April Jackson", "age": 37, "ocupatio": "tester", "gender": "female",
       "name": "Harry Potter", "age": 29, "ocupatio": "tester", "gender": "male",
       "name": "Brad Poter", "age": 17, "ocupatio": "tester", "gender": "male",
-      "name": "Betty Paula", "age": 19, "ocupatio": "account", "gender": "female",
+      "name": "Betty Paula", "age": 19, "ocupatio": "account", "gender": "female"
     
-      
-      "name": "Fantasy Fiction",
-      "price": {"paperback": "£40.40", "hardcover": "£30.32", "kindle": "£5.11"}
   }
 
   
@@ -21,9 +18,9 @@ let book = `{
 
 ;
 
-let bookList = JSON.parse(book)
+let empList = JSON.parse(employes)
 console.log('------------JSON Data Parsing Nested in JavaScript--------------------')
-console.log(bookList)
+console.log(staffList)
 
 
 
