@@ -39,7 +39,13 @@ let staff = [
   {"name": "Andy Harry","ocupation": "developer","age": 33,
   "gender": "male"},
   {"name": "Jennifer Smith","ocupation": "account","age": 50,
-  "gender": "female"}
+  "gender": "female"},
+  {"name": "John Jackson","ocupation": "manage","age": 40,
+  "gender": "male"},
+  {"name": "Ryan T","ocupation": "developer","age": 17,
+  "gender": "male"},
+  {"name": "Jenn Beck","ocupation": "tester","age": 52,
+  "gender": "female"},
 
 ];
 
