@@ -1,2 +1,2 @@
 # JavaScript JSON Parsing
- parsing nested json data into javascript
+ parsing nested json data into javascript es6
